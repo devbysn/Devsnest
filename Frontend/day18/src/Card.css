@@ -11,8 +11,8 @@
 .cardEle {
   width: 40px;
   height: 40px;
-  background: #000;
-  margin: 2px;
+  border: 1px solid rgb(124, 124, 124);
+  margin: 3px;
 }
 
 /* span:nth-child(odd) {

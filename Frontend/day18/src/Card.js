@@ -6,7 +6,7 @@ function Card() {
   let j = [];
   let num = 72;
   for (var i = 0; i < num; i++) {
-    j.push(<CardElement style={{ background: "white" }} />);
+    j.push(<CardElement style={{ backgroundColor: "red" }} />);
   }
   {
     /* <div
