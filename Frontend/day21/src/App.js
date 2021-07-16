@@ -1,10 +1,10 @@
 import "./App.css";
-import Todo from "./components/Todo";
+import CalorieMeter from "./components/CalorieMeter";
 
 function App() {
   return (
     <div className="App">
-      <Todo />
+      <CalorieMeter />
     </div>
   );
 }

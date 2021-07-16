@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import "./Todo.css";
+import "./CalorieMeter.css";
 
 function Task({ task, index, removeTask }) {
   return (
@@ -54,9 +54,33 @@ function CreateTask({ addTask }) {
   );
 }
 
-function Todo() {
+function CalorieMeter() {
   const [tasksRemaining, setTasksRemaining] = useState(0);
   const [tasks, setTasks] = useState([
+    {
+      title: "Pizza",
+      calorie: 30,
+    },
+    {
+      title: "pasta",
+      calorie: 30,
+    },
+    {
+      title: "Burger",
+      calorie: 30,
+    },
+    {
+      title: "Pizza",
+      calorie: 30,
+    },
+    {
+      title: "pasta",
+      calorie: 30,
+    },
+    {
+      title: "Burger",
+      calorie: 30,
+    },
     {
       title: "Pizza",
       calorie: 30,
@@ -129,4 +153,4 @@ function Todo() {
   );
 }
 
-export default Todo;
+export default CalorieMeter;

@@ -16,12 +16,29 @@ body {
   overflow-y: scroll;
 }
 
+.todo-container::-webkit-scrollbar {
+  width: 20px;
+}
+
+.todo-container::-webkit-scrollbar-track {
+  background-color: #e4e4e4;
+  border-radius: 100px;
+}
+
+.todo-container::-webkit-scrollbar-thumb {
+  border-radius: 100px;
+  border: 6px solid rgba(0, 0, 0, 0.18);
+  border-left: 0;
+  border-right: 0;
+  background-color: #8070d4;
+}
 .todo-container h1 {
   font-size: 3rem;
   font-weight: 400;
 }
 
 .task {
+  font-size: 1.5rem;
   border: 1px solid white;
   border-radius: 5px;
   padding: 0.5em;
