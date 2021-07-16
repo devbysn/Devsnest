@@ -1,12 +1,10 @@
-import React from "react";
 import "./App.css";
-
-import Instructions from "./components/Instructions";
+import CalorieMeter from "./components/CalorieMeter";
 
 function App() {
   return (
-    <div>
-      <Instructions />
+    <div className="App">
+      <CalorieMeter />
     </div>
   );
 }
