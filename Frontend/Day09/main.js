@@ -1,26 +1,34 @@
-//call and apply
-const descSatya = {
-  name: "Satya",
-  year: "2020",
-  dob(year, course) {
-    console.log(
-      `${this.name} is ${this.year - year} year old and is persuing ${course}`
-    );
-  },
-};
+const tds = document.querySelectorAll("td");
+console.log(tds);
 
-const descRohit = {
-  name: "Rohit",
-  year: "2020",
-};
+function changeFucntion(e) {
+  console.log(e);
+  e.classList.toggle("active");
 
-descSatya.dob(2000, "CSE");
+  console.log(e.classList.contains("active"));
 
-const year = descSatya.dob;
+  let count = getCounter();
+  console.log(count);
+  updateCounter(count);
+}
 
-year.call(descRohit, 2001, "Nursing");
+function getCounter() {
+  let count = 0;
+  for (let index = 0; index < tds.length; index++) {
+    let td = tds[index];
+    if (td.classList.contains("active")) {
+      count++;
+    }
+  }
 
-const rohitInfo = [2001, "Nursing"];
-year.apply(descRohit, rohitInfo);
+  return count;
+}
 
-//bind
+//updating booking and remaining class seats
+const bookings = document.querySelector(".points1");
+const remaining = document.querySelector(".points2");
+
+function updateCounter(count) {
+  remaining.innerHTML = 30 - count;
+  bookings.innerHTML = count;
+}
