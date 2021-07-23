@@ -16,7 +16,7 @@ body {
 }
 
 body {
-  background: linear-gradient(to left, dodgerblue, #345);
+  background: linear-gradient(to left, #ff512f, #f09819);
   font-family: "Permanent Marker", cursive;
   font-size: 16px;
 }
@@ -32,7 +32,7 @@ h1 {
   color: rgb(0, 0, 0);
   font-family: "Varela", sans-serif;
   text-transform: uppercase;
-  text-shadow: -2px 0 #00afad, 2px 2px #006de2;
+  text-shadow: -2px 0 #ff441f, 2px 2px #f0910c;
   animation: glitch-anim2 1s infinite linear alternate-reverse;
 }
 
@@ -57,7 +57,7 @@ h1 {
   border-radius: 5px;
   cursor: pointer;
   display: flex;
-  background: rgb(67, 163, 208);
+  background: #f5c422;
   backface-visibility: hidden;
   justify-content: center;
   align-items: center;
@@ -80,7 +80,7 @@ h1 {
 
 .deck .card.match {
   cursor: default;
-  background: #e5f720;
+  background: #d6bb1c;
   font-size: 33px;
   animation-name: rubberBand;
   -webkit-backface-visibility: visible !important;
@@ -93,7 +93,7 @@ h1 {
   -webkit-backface-visibility: visible !important;
   backface-visibility: visible !important;
   animation-duration: 0.75s;
-  background: #e2043b;
+  background: #e61a0b;
 }
 
 .deck .card.disabled {
