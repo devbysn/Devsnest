@@ -1,0 +1,29 @@
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid rgb(0, 152, 172);
+  padding: 4rem;
+  background: rgb(53, 53, 53);
+  margin: 4rem;
+  border-radius: 10px;
+  color: rgb(247, 234, 211);
+  align-items: center;
+}
+
+table,
+td,
+th {
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  padding: 25px;
+}
