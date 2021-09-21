@@ -7,6 +7,10 @@ import {
   Button,
 } from "react-bootstrap";
 
+import { connect } from "react-redux";
+import { bindActionCreators } from "redux";
+import { addNewEmp } from "../allactions";
+
 class SignupForm extends Component {
   constructor(props) {
     super(props);
@@ -21,7 +25,6 @@ class SignupForm extends Component {
     // This binding is necessary to make `this` work in the callback
     this.handleSubmit = this.handleSubmit.bind(this);
   }
-
   handleSubmit() {
     let formdata = {
       firstname: this.state.firstname,
@@ -30,6 +33,7 @@ class SignupForm extends Component {
       mobile: this.state.mobile,
       city: this.state.city,
     };
+    this.props.addNewEmp(formdata);
     console.log("submitted", formdata);
     this.setState({
       firstname: "",
@@ -118,4 +122,7 @@ class SignupForm extends Component {
   }
 }
 
-export default SignupForm;
+function mapDispatchToProps(dispatch) {
+  return bindActionCreators({ addNewEmp }, dispatch);
+}
+export default connect(null, mapDispatchToProps)(SignupForm);

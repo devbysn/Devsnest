@@ -7,7 +7,7 @@ function Header() {
     <div>
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <Link to="/" className="navbar-brand" href="#">
-          <h1>Wisdatum</h1>
+          <h1>Employee</h1>
         </Link>
 
         <div className="collapse navbar-collapse" id="navbarNav">
