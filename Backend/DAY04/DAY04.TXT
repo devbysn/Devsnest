@@ -1,0 +1,33 @@
+----------------HOW INTERNET WORKS----------------
+
+
+
+--------------------API--------------------------
+do software aapas m baat karte h APIs see
+
+types
+1. PRIVATE
+2. PARTNER
+3. PUBLIC
+
+types of APIs (usage)----->>>
+1. Web APIs
+2. Open APIS
+3. Internal APIs
+4. Partner APIs
+5. Composite APIs
+
+
+------------API Architectures and Protocols---------
+
+1. REST
+2. JSON-RPC and XML-RPC
+3. SOAP
+
+REQUEST
+HEADER, PARAMS/BODY, OPERATIONS, END-POINTS
+
+
+--------------------NodeJS-------------------------
+
+

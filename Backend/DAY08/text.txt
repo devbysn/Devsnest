@@ -1,0 +1,13 @@
+-->  app.use ka sequence matters
+
+
+--------- HTTP status codes --------
+
+200 -> OK
+304 -> Not Modified 
+400  ->Bad Request
+
+
+---> for performance browser stores the GET data.
+---> We send POST sometimes instead of GET because ye cache nahi hoti h.
+---> POST by default body except nahi karta, body-parser use karna hota h iske liye.

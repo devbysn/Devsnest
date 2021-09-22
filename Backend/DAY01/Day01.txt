@@ -1,0 +1,73 @@
+-------------------------------REDIS----------------------------------
+🦉 What is redis?
+Redis is an open source, BSD licensed, advanced key-value store.
+It is often referred to as a data structure server, since the keys can contain strings, hashes, lists, sets and sorted sets. Redis is written in C.
+This tutorial provides good understanding on Redis concepts, needed to create and deploy a highly scalable and performance-oriented system.
+
+🦉 Redis Data-types
+Strings
+
+Example
+redis 127.0.0.1:6379> SET name "tutorialspoint" 
+OK 
+redis 127.0.0.1:6379> GET name 
+
+
+Hashes
+redis 127.0.0.1:6379> HMSET user:1 username tutorialspoint password 
+tutorialspoint points 200 
+redis 127.0.0.1:6379> HGETALL user:1  
+
+
+Lists
+1. lpush
+2. lrange
+Sets
+1. sadd
+2. smembers  
+
+Sorted Sets
+1. zadd 
+2. ZRANGEBYSCORE
+
+
+
+
+🦉 How to start redis client?
+redis-cli   
+
+
+🦉 Run Commands on the Remote Server
+$ redis-cli -h host -p port -a password
+
+
+🦉 Redis - Keys
+Syntax
+redis 127.0.0.1:6379> COMMAND KEY_NAME
+
+🦉 Check if key exists or not
+127.0.0.1:6379> EXISTS NAME
+
+
+🦉 Flushall
+127.0.0.1:6379> FLUSHALL
+
+🦉 Time to Live
+redis 127.0.0.1:6379> TTL KEY_NAME 
+
+🦉 Set variable and expiry date 
+127.0.0.1:6379> SETEX name 20 sattu
+
+
+---------------------------POSTGRESQL-------------------------------
+
+Creating a user
+postgres-# CREATE USER dv WITH PASSWORD xyz
+
+Creating a DB 
+postgres-# CREATE DATABASE devs
+
+Grant perminssions/privilages
+postgres-# GRANT ALL PRIVILAGES ON devs to dv
+
+Redis RAM m store hota h and Data Hard Disk m.
