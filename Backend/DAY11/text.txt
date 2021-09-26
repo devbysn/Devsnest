@@ -1,0 +1,19 @@
+3 baato ka dhyaan rakhna......
+1. Security
+2. Performance
+3. Edge-Cases
+
+---------JS Injection-----------
+Def - The essence of JS Injection is to inject the Javascript code, that will be run from the client-side.
+
+Typical JS Injection targets are:
+ * Various forums
+ * Article‘s comments fields
+ * Guestbooks
+ * Any other forms where text can be inserted.
+
+-----------SQL Injection--------------
+
+Def - malicious user could provide unexpected inputs to the application that are 
+then used to frame and execute SQL statements on the database. 
+

@@ -1,0 +1,3 @@
+-----------------SENDING STATIC FILES------------------------
+
+__dirname -> ye ek global object hota h jo path provide karta h
